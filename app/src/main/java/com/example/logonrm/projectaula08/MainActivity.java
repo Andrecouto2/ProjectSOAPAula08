@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
             } catch (Exception e) {
                 e.getMessage();
             }
-            return null;
+            return Integer.parseInt(calcular.toString());
         }
 
         @Override
